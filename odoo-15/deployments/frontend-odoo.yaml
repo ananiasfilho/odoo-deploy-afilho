@@ -8,7 +8,7 @@ spec:
     matchLabels:
       app: odoo-15
       tier: odoo15
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:
